@@ -66,9 +66,7 @@ public class GeneratePresetImpl implements GeneratePreset {
         Map<String, Double> map1 = new HashMap<>();
         Map<String, Double> map2 = new HashMap<>();
 
-        // Последние два int: x, y.
-        // Если в шаблонном юните есть координаты, вы можете взять их.
-        // Иначе поставьте 0, 0 или что-либо подходящее.
+
         int x = 0;
         int y = 0;
 
